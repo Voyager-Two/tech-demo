@@ -1,11 +1,7 @@
-import { join } from 'path';
-
 module.exports = {
   content: [
-    join(__dirname, 'src/client/pages/**/*.tsx'),
-    join(__dirname, 'src/client/features/**/*.tsx'),
-    // "./src/client/pages/**/*.{js,ts,jsx,tsx}",
-    // "./src/client/features/**/*.{js,ts,jsx,tsx}",
+    // Doesn't work for some reason
+    // Works inside postcss.config.js
   ],
   // https://tailwindcss.com/docs/theme#customizing-the-default-theme
   theme: {
