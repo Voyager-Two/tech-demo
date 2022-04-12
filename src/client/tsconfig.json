@@ -28,7 +28,10 @@
     "isolatedModules": true,
     "removeComments": true,
     "jsx": "preserve",
-    "incremental": true
+    "incremental": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
   },
   "exclude": [
     "node_modules"
