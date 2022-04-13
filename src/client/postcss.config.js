@@ -1,8 +1,11 @@
-console.warn('postcss', __dirname);
-
 module.exports = {
   plugins: {
-    'tailwindcss': {},
+    'tailwindcss': {
+      purge: [
+        './src/client/pages/**/*.tsx',
+        './src/client/features/**/*.tsx',
+      ],
+    },
     'autoprefixer': {},
  },
 };

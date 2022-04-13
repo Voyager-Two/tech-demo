@@ -1,5 +1,3 @@
-console.warn('tailwind', __dirname);
-
 module.exports = {
   mode: 'jit',
   purge: [
