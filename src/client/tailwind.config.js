@@ -4,8 +4,8 @@ module.exports = {
   content: [
     // Doesn't work for some reason
     // Works inside postcss.config.js
-    // './pages/**/*.tsx',
-    // './features/**/*.tsx',
+    './src/client/pages/**/*.tsx',
+    './src/client/features/**/*.tsx',
   ],
   // https://tailwindcss.com/docs/theme#customizing-the-default-theme
   theme: {
