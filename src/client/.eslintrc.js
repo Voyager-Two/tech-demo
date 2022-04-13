@@ -1,4 +1,6 @@
 module.exports = {
+  // TODO: Update accordingly, maybe completely separate
+  //    https://nextjs.org/docs/basic-features/eslint#migrating-existing-config
   // Add anything global to root eslintrc.js file
   // Anything specific to react/client can go here
   parserOptions: {

@@ -1,12 +1,11 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const { join } = require('path');
+console.warn('tailwind', __dirname);
 
 module.exports = {
   content: [
     // Doesn't work for some reason
     // Works inside postcss.config.js
-    join(__dirname, 'pages/**/*.{js,ts,jsx,tsx}'),
-    join(__dirname, 'features/**/*.{js,ts,jsx,tsx}'),
+    // './pages/**/*.tsx',
+    // './features/**/*.tsx',
   ],
   // https://tailwindcss.com/docs/theme#customizing-the-default-theme
   theme: {
