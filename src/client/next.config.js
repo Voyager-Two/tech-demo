@@ -1,4 +1,5 @@
 module.exports = {
+  reactStrictMode: true,
   compiler: {
     reactRemoveProperties: true,
     removeConsole: {
