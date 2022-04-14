@@ -2,8 +2,7 @@ module.exports = {
   plugins: {
     'tailwindcss': {
       content: [
-        './src/client/pages/**/*.tsx',
-        './src/client/features/**/*.tsx',
+        './src/client/**/*.{js,ts,jsx,tsx}',
       ],
     },
     'autoprefixer': {},
