@@ -1,15 +1,16 @@
 module.exports = {
-  mode: 'jit',
-  purge: [
-    './src/client/pages/**/*.tsx',
-    './src/client/features/**/*.tsx',
+  content: [
+    // Doesn't work for some reason
+    // Works inside postcss.config.js
+    // './src/client/pages/**/*.tsx',
+    // './src/client/features/**/*.tsx',
   ],
-  darkMode: false, // or 'media' or 'class'
+  // https://tailwindcss.com/docs/theme#customizing-the-default-theme
   theme: {
-    extend: {},
-  },
-  variants: {
-    extend: {},
+    extend: {
+      // Add configs here to extend default theme
+    },
+    // Add config here if you want to override default theme
   },
   plugins: [],
 }
