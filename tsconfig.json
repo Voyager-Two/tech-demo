@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@api/*": [
+        "src/api/*"
+      ],
+      "@app/*": [
+        "src/api/app/*"
+      ],
+      "@shared/*": [
+        "src/shared/*"
+      ]
+    },
+    "outDir": "./dist",
+    "lib": ["ES2020", "dom"],
+    "module": "commonjs",
+    "target": "ES2020", // https://github.com/microsoft/TypeScript/wiki/Node-Target-Mapping
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "incremental": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+  },
+  "ts-node": {
+    "files": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/api",
+    "src/shared",
+    "test",
+    "ormconfig.ts",
+    "jest.config.ts"
+  ]
+}
