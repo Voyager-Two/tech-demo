@@ -1,4 +1,4 @@
-## Live demo site: [tech-demo-ivory.vercel.app](https://tech-demo-ivory.vercel.app/)
+## Live demo site: [tech-demo.emre.earth](https://tech-demo.emre.earth/)
 
 ---
 
