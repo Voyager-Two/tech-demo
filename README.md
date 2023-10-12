@@ -1,4 +1,4 @@
-## Live demo site: [tech-demo.emre.earth](https://tech-demo.emre.earth/)
+Archived. Please see updated version: https://github.com/Voyager-Two/stripe-demo
 
 ---
 
