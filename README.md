@@ -1,4 +1,4 @@
-Archived. Please see updated version: https://github.com/Voyager-Two/stripe-demo
+## Archived. Please see [updated version](https://github.com/Voyager-Two/stripe-demo)
 
 ---
 
